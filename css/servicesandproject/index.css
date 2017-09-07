@@ -1,0 +1,151 @@
+
+.servicesTitle img{
+	display: block;
+	padding-top:82px;
+	padding-bottom:32px;
+	margin:auto;
+}
+.services_content .content_ul{
+	justify-content: space-between;
+	flex-wrap: wrap;
+	width:100%;
+} 
+.services_content .content_li{
+	width:24%;
+	margin-bottom:24px;
+	position:relative;
+}
+.services_content .content_li img{
+	width:100%;
+	display: block;
+}
+.services_content .content_li .recommend{
+	position:absolute;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:47px;
+	background:rgba(0,0,0,0.7);
+	line-height: 47px;
+	text-align: center;
+	color:#fff;
+	cursor: pointer;
+}
+.projectTitle{
+	background:#f9f9f9;
+} 
+.projectTitle img{
+	margin-top:37px;
+	padding-top:39px;
+	padding-bottom:27px;
+}
+.projectNav{
+	justify-content: center;
+	height:57px;
+	background:#f9f9f9;
+	margin-bottom:36px;
+	
+}
+.projectNav_li{
+	line-height:57px;
+	text-align: center;
+}
+.projectNav_li p {
+	margin:0 57px ;
+	cursor:pointer;
+}
+.active{
+	color:#16b4db;
+	border-bottom:1px solid #16b4db;
+}
+.projects_content{
+	position:relative;
+	height:1170px;
+}
+.projects_content_li{
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	display: none;
+}
+.li_List{
+	margin-bottom:30px;
+}
+.li_List_one{
+	width:100%;
+	height:487px;
+}
+.one_text{
+	width:45%;
+	background:#1477bd;
+	text-align: left;
+	padding-top:68px;
+}
+.one_text  p{
+	color:#fff;
+}
+.one_text > div{
+	width:65%;
+	margin:0 23px;
+}
+.one_text .name{
+	font-size:45px;
+	position:relative;
+	color:#fff;
+	height:60px;
+	margin-bottom:34px;
+}
+.one_text .name p{
+	position: absolute;
+	z-index:30;
+	left:0px;
+	top:0;
+}
+.one_text .name span{
+	position:absolute;
+	left:0;
+	top:-20px;
+	font-size:36px;
+	color:#0c68a9;
+	font-family: "Mangal";
+	z-index:20;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.one_text .intro{
+	margin-bottom:70px;
+	line-height: 24px;
+}
+.one_text .address,.one_text .tel{
+	line-height: 25px;
+}
+.one_img{
+	height:100%;
+	width:55%
+}
+.one_img img{
+	width:100%;
+	height:100%;
+	
+}
+.page{
+	justify-content: center;
+	margin-bottom: 93px;
+}
+.page li{
+	width:37px;
+	width:37px;
+	background:#a3a3a3;
+	line-height: 37px;
+	text-align: center;
+	color:#fff;
+	margin:0 8px;
+}
+.activePg{
+	background:#007cc2 !important;
+}
+.footer{
+	background:#f4f4f4;
+	padding-top:50px;
+}

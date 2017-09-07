@@ -1,0 +1,291 @@
+#speech,
+#infro {
+	width: 100%;
+}
+
+.specch_top img,
+.specch_bottom img {
+	width: 100%;
+	display: block;
+}
+.specch_content_text {
+	width: 63.2%;
+	padding-top: 60px;
+}
+
+.specch_content_img {
+	width: 36.8%;
+}
+
+.specch_content_img img {
+	width: 100%;
+	display: block;
+}
+
+.specch_content_text .wrap {
+	width: 70%;
+	margin-right: 30px;
+	text-align: right;
+}
+
+.specch_content_text p {
+	line-height: 40px;
+	width: 100%;
+}
+/*简介*/
+#infro {
+	background: url(../../img/companysituation/jianjie_bg_05.png) no-repeat center center;
+	background-size: cover;
+	height: 770px;
+	margin-bottom: 55px;
+}
+
+#infro p {
+	line-height: 40px;
+}
+/*荣誉*/
+#glory {
+	height: 540px;
+	background: #5eb4e7;
+	margin-bottom:70px;
+}
+
+.glory_title {
+	padding: 37px 0;
+}
+.glory_title img {
+	display: block;
+	margin: auto;
+}
+.swiper-container-glory {
+	width: 1200px;
+	height: 360px;
+	margin: auto;
+}
+ .swiper-slide {
+	text-align: center;
+	font-size: 18px;
+	/*Center slide text vertically*/
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: flex-end;
+	cursor: pointer;
+}
+.swiper-slide img {
+	width: 100%;
+	max-height: 360px;
+}
+/*文化*/
+.culture_title{
+	height:235px;
+	background:url(../../img/companysituation/culture_bg.png) no-repeat center center;
+	background-size:cover;
+	align-items: flex-end;
+	justify-content: center;
+}
+.culture_title img{
+	margin-bottom: 49px;
+}
+.wenhua_nav_ul {
+	width: 100%;
+	position: relative;
+	background:#6cb5db;
+}
+.wenhua_nav_div {
+	width: 25%;
+	box-sizing: border-box;
+	height: 730px;
+}
+.wenhua_nav_div .wenhua_nav_div_content{
+	width:250px;
+	color:#fff;
+	margin:auto;
+	margin-top:38.2%;
+}
+.wenhua_nav_div .wenhua_nav_div_content > p{
+	line-height:40px;
+	font-size:20px;
+}
+.wenhua_nav_div_content .content_title{
+	margin-bottom:20px;
+}
+.wenhua_nav_div_content .content_title img{
+	width:100px;
+	height:100px;
+}
+.wenhua_nav_div_content .content_title p{
+	line-height:100px;
+	margin-left:20px;
+	font-size:24px;
+	font-weight: bold;
+}
+.wenhua_nav_line_left {
+	height: 5px;
+	width: 6.25%;
+	background: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 10%;
+	z-index: 30;
+}
+
+.wenhua_nav_line_right {
+	height: 5px;
+	width: 81.25%;
+	background: #fff;
+	position: absolute;
+	right: 0;
+	bottom: 10%;
+	z-index: 30;
+}
+
+.wenhua_nav_div:hover {
+	transform: translate(5%, 5%);
+	transition: all 1s;
+	box-shadow: -10px 0px 20px 5px rgba(0,0,0,0.1);
+}
+.wenhua_nav_div:nth-child(2){
+	transform: translateY(5%);
+}
+.wenhua_nav_div:nth-child(2):hover{
+	transform: translateY(-5%);
+}
+.wenhua_nav_div:nth-child(3){
+	transform: translateY(2.5%);
+}
+.wenhua_nav_div:nth-child(3):hover{
+	transform: translateY(-2.5%);
+	box-shadow: 10px 0px 20px 5px rgba(0,0,0,0.1);
+}
+.wenhua_nav_div:nth-child(4):hover{
+	box-shadow: 10px 0px 20px 5px rgba(0,0,0,0.1);
+	transform: translate(-5%, 5%);
+}
+.lineActive {
+	transition: all 1s;
+}
+/*事件*/
+#incident{
+	background-color:#0f6391;
+	height:910px;
+	background:url(../../img/companysituation/incident_bg.png) no-repeat center center;
+	background-size: cover;
+}
+.incident_title{
+	padding:140px 0 70px 0;
+}
+.incident_time{
+	padding:20px 0;
+}
+.swiper-container_time{
+	height:200px;
+	width:100%;
+	margin: auto;
+}
+.swiper-container_time .swiper-slide{
+	align-items: flex-start;
+	color: #fff;
+	justify-content: flex-start;
+
+}
+.swiper-container_time .swiper-slide:nth-child(2n+1){
+	align-items: flex-end;
+}
+.swiper-container_time .time{
+	width:100px;
+	height:100px;
+	line-height:100px;
+	border:2px solid #fff;
+	border-radius: 50%;
+	position:relative;
+	z-index:10;
+}
+.swiper-container_time .swiper-slide:nth-child(2n) .time:after{
+	content: "";
+    width: 95px;
+    height: 2px;
+    position: absolute;
+    top: 93px;
+    right: -85px;
+    z-index: 30;
+    background: #fff;
+    transform: rotate(30deg);
+}
+.swiper-container_time .swiper-slide:nth-child(2n+1) .time:after{
+	content: "";
+    width: 95px;
+    height: 2px;
+    position: absolute;
+    top: 0px;
+    right: -82px;
+    z-index: 30;
+    background: #fff;
+    transform: rotate(-30deg);
+}
+.activeTOdd{
+	transform: translate(16px,16px) scale(1.1);
+	background:#fff;
+	color:#0f6391;
+	box-shadow: 0px 0px 0px 6px #87b1c8;
+}
+.activeTOdd:after{
+	width: 85px !important;
+    right: -58px !important;
+    top: 75px !important
+}
+.activeTEven{
+	transform: translate(16px,-16px) scale(1.1);
+	background:#fff;
+	color:#0f6391;
+	box-shadow: 0px 0px 0px 6px #87b1c8;
+}
+.activeTEven:after{
+	width: 60px !important;
+    right: -54px !important;
+    top: 12px !important
+}
+.swiper-container_time .swiper-slide:last-child .time:after{
+	display: none;
+}
+.incident_thing {
+	
+}
+.incident_thing .incident_thing_text{
+	width:70%;
+	margin:70px  auto;
+}
+.incident_thing .incident_thing_text p{
+	line-height:60px;
+	font-size:20px;
+	color:#fff;	
+}
+.incident_thing .more a{
+	color:#146896;
+	background:#fff;
+	width:80px;
+	margin:auto;
+	line-height: 24px;
+	border-radius: 12px;
+	cursor: pointer;
+	display:block;
+}
+.incident_thing .more:hover a{
+	transition: all 1s;
+	transform: scale(1.2);
+	background:#0f6391;
+	color:#fff;
+}
+/*footer*/
+.footer{
+	padding-top:48px;
+	background:#f4f4f4;
+}
