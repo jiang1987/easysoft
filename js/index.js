@@ -50,10 +50,11 @@
         }
     });
 	var Swiper2 = new Swiper('.swiper-container2',{
-        centeredSlides: true,
-        slidesPerView: 'auto',
+        	centeredSlides: true,
+        	slidesPerView: 'auto',
 		initialSlide:1,
-		loop:true
+		loop:true,
+		simulateTouch: false,
 	});
     Swiper1.params.control = Swiper2;
     //鼠标hover事件
