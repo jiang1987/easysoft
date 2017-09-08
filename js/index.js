@@ -54,7 +54,7 @@
         	slidesPerView: 'auto',
 		initialSlide:1,
 		loop:true,
-		simulateTouch: false,
+		simulateTouch: false
 	});
     Swiper1.params.control = Swiper2;
     //鼠标hover事件
