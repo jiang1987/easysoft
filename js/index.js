@@ -27,8 +27,6 @@
     });
     //行业资讯
     var Swiper1 = new Swiper('.swiper-container1', {
-//      nextButton: '.swiper-button-next',
-//      prevButton: '.swiper-button-prev',
         effect: 'coverflow',
         grabCursor: true,
         centeredSlides: true,
